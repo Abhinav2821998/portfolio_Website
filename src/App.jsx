@@ -186,7 +186,7 @@ const App = () => {
           </div>
         </div>
 
-        {/*<div id="myprojects">
+         {/*<div id="myprojects">
           <div className="heading">
             <p>My Projects</p>
             <EmojiPeopleIcon />
@@ -200,28 +200,21 @@ const App = () => {
 
         <div id="myprojects">
           <div className="heading">
-          <h1 style={{position:"relative", top:"-300px",fontSize:"2.5rem"}}>Project Section</h1>
-          <h3 style={{color:"goldenrod"}}>My Recent Work</h3><br/>
-          <h1 style={{fontSize:"2rem"}}>Projects</h1>
+          <h1 style={{position:"relative", top:"-300px",left:"-50px",fontSize:"2rem"}}>Project Section</h1>
+          <h3 style={{position:"relative",left:"-50px",color:"goldenrod"}}>My Recent Work</h3><br/>
+          <h1 style={{position:"relative",left:"-50px",fontSize:"2rem"}}>Projects</h1>
           <br/>
-          <h2 style={{color:"goldenrod"}}>To explore my projects visit my Github account.</h2>
+          <h2 style={{position:"relative",left:"-50px",color:"goldenrod"}}>To explore my projects visit my Github account.</h2>
           <br/>
           <br/>
-          <SouthIcon style={{color:"goldenrod"}}/>
+          <SouthIcon style={{position:"relative",left:"-50px",color:"goldenrod"}}/>
           <br/>
-          <a href="https://github.com/Abhinav2821998"><GitHubIcon style={{color:"white"}}/></a>
+          <a href="https://github.com/Abhinav2821998" style={{position:"relative",left:"-50px"}}><GitHubIcon style={{position:"relative",left:"-5px",color:"white"}}/></a>
           </div>
           <div className="bdy">
             <div className="projectCard">
               <img
                 src={Business}
-                style={{
-                  display: "inline-block",
-                  width: "60%",
-                  height: "40%",
-                  margin: "auto",
-                  alignSelf: "start",
-                }}
               />
               <p style={{ color: "white" }}>
                 A dynamic website built for the ease of service-based company,
@@ -241,13 +234,6 @@ const App = () => {
             <div className="projectCard">
               <img
                 src={Todo}
-                style={{
-                  display: "inline-block",
-                  width: "60%",
-                  height: "40%",
-                  margin: "auto",
-                  alignSelf: "start",
-                }}
               />
               <p style={{ color: "white" }}>
                 Now you can plan and manage your daily tasks using this app.
@@ -263,13 +249,6 @@ const App = () => {
             <div className="projectCard">
               <img
                 src={Dance}
-                style={{
-                  display: "inline-block",
-                  width: "60%",
-                  height: "40%",
-                  margin: "auto",
-                  alignSelf: "start",
-                }}
               />
               <p style={{ color: "white" }}>
                 Academy registration website built using HTML,CSS and
