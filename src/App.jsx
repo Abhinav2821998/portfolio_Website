@@ -79,8 +79,8 @@ const App = () => {
             </a>
             <a
               id="two"
-              href="/Abhinav_Resume.pdf"
-              download="Abhinav_Resume"
+              href="/Abhinav_Mishra_CV.pdf"
+              download="Abhinav_Mishra_CV"
               target="_blank"
             >
               Download CV
